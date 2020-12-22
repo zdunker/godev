@@ -1,0 +1,24 @@
+- id: 1
+  name: "双用户"
+  conditions:
+    - gender:
+      - is:
+        - male
+    - os:
+      - is:
+        - huawei
+        - xiaomi
+    - age:
+      - in:
+        - "(18, 25]"
+        - "[35, 40]"
+      - lte:
+        - 15
+      - gte:
+        - 50
+    - employed:
+      - is:
+        - true
+    - region:
+      - not:
+        - "united states"
