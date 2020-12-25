@@ -1,0 +1,18 @@
+data types supported:
+string
+bool
+int
+float
+
+operator supported:
+
+logical operators: (between properties)
+and (&&)
+or (||)
+
+comparison operators: (between attribute and target value)
+==
+<=
+>=
+<
+>
